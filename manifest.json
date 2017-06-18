@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Request Sanctions",
+  "version": "0.1",
+  "icons": {
+    "16": "src/resources/block_16.png",
+    "32": "src/resources/block_32.png",
+    "48": "src/resources/block_48.png",
+    "64": "src/resources/block_64.png"
+  },
+  "background": {
+    "scripts": [
+      "src/js/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
